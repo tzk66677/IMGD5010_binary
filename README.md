@@ -39,6 +39,7 @@ Feel free to change the color definitions (HEX codes) to suit your preferences.
 | 1101   | 13      | Dark Green     | `#006400`  |
 | 1110   | 14      | Light Blue     | `#ADD8E6`  |
 | 1111   | 15      | Khaki          | `#F0E68C`  |
+![G0-hsl-FFFFFF-000000-FF0000-19E664-0000FF-FFFF00-FF00FF-00FFFF-878787-FFC2CC-FFA600-ADD8E6-A62B2B-006600-F0E78E](https://github.com/user-attachments/assets/fb651d2f-e60e-4b3a-b9ee-e16bdbc6655a)
 
 Step 2: 4*4 Mosaic:
 
