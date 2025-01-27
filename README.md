@@ -50,20 +50,27 @@ Step 2: 4*4 Mosaic:
 | 1000   | 1001   | 1010   | 1011   |
 | 1100   | 1101   | 1110   | 1111   |
 
-## How to Create Your Mosaic
+## How to Create Your 4×4 Mosaic
 
-1. **List 16 binary values** (each is 4 bits).  
-2. **Assign each binary to a cell** in order:  
-   - The 1st binary value → Cell 0  
-   - The 2nd binary value → Cell 1  
-   - …  
-   - The 16th binary value → Cell 15  
-3. **Look up each binary** in the color palette table to find its color.  
-4. **Fill the grid** accordingly:
-   - Row 0: cells 0–3
-   - Row 1: cells 4–7
-   - Row 2: cells 8–11
-   - Row 3: cells 12–15
+1. **Choose a 4-bit color code**  
+   - Refer to the palette table (e.g., `0000` for white, `0010` for red, etc.) or use your own color definitions.  
+   - Each 4-bit value can range from `0000` (0) to `1111` (15).
 
+2. **Select the corresponding cell**  
+   - Number the cells from 0 to 15 in row-major order (top-left to bottom-right).  
+   - For example, cell 0 is the top-left, cell 3 is the top-right, cell 12 is the bottom-left, and cell 15 is the bottom-right.
+
+3. **Assign the chosen color code to that cell**  
+   - Write down the 4-bit code for each of the 16 cell.
+
+4. **Fill or label the 4×4 grid**  
+   - Using the color codes assigned to each cell, color or mark each cell accordingly.  
+   - You can either draw it by hand on paper or use a digital tool to fill in each cell with the chosen color.
+
+By following these steps, you’ll have a completed 4×4 mosaic defined by 16 binary color codes.
+
+   - 
+## Chanllenge
+Design your own 4×4 mosaic with those colors
 
 
