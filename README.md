@@ -14,17 +14,9 @@ Each cell in the 4×4 grid is filled based on its assigned 4-bit value (from 000
 4. You fill the cells in **row-major order**:
    - The first 4-bit value fills cell 0 (top-left),
    - The second fills cell 1,
-   - …,
    - The sixteenth fills cell 15 (bottom-right).
 
-### Grid Cell Numbering
-
-
-- Cell **0** is top-left, cell **3** is top-right, cell **12** is bottom-left, and cell **15** is bottom-right.
-
----
-
-## Color Palette
+## Step 1: Color Palette
 
 Below is an example palette mapping **4-bit values** (from `0000` to `1111`) to colors.  
 Feel free to change the color definitions (HEX codes) to suit your preferences.
@@ -48,7 +40,12 @@ Feel free to change the color definitions (HEX codes) to suit your preferences.
 | 1110   | 14      | Light Blue     | `#ADD8E6`  |
 | 1111   | 15      | Khaki          | `#F0E68C`  |
 
----
+Step 2: 4*4 Mosaic:
+
+| 0000 | 0001 | 0010 | 0011 |
+| 0100 | 0101 | 0110 | 0111 |
+| 1000 | 1001 | 1010 | 1011 |
+| 1100 | 1101 | 1110 | 1111 |
 
 ## How to Create Your Mosaic
 
